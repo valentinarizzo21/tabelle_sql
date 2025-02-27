@@ -1,0 +1,46 @@
+use azienda_1;
+
+INSERT INTO IMPIEGATO (cognome, nome, cf, eta, reddito_mensile, detrazione_fiscale) VALUES
+('Rossi', 'Mario', 'RSSMRA80A01H501Z', 35, 1200.00, 1),
+('Bianchi', 'Laura', 'BNCLRA85B02H501Y', 28, 900.00, 0),
+('Verdi', 'Luca', 'VRDLCU90C03H501X', 32, 1500.00, 1),
+('Gialli', 'Anna', 'GLLNNA95D04H501W', 30, 1100.00, 0),
+('Neri', 'Marco', 'NRIMRC88E05H501V', 45, 2000.00, 1),
+('Moretti', 'Giulia', 'MRTGLI92A06H501U', 33, 1300.00, 1),
+('Ferrari', 'Alessandro', 'FRRALS87B07H501T', 40, 1800.00, 1),
+('Conti', 'Sara', 'CNTSAR93C08H501S', 27, 950.00, 0),
+('De Luca', 'Francesco', 'DLUFRN89D09H501R', 36, 1600.00, 1),
+('Romano', 'Elisa', 'RMNELI91E10H501Q', 29, 1050.00, 0),
+('Gatti', 'Paolo', 'GTTPLA86F11H501P', 38, 1700.00, 1),
+('Marini', 'Marta', 'MRNMRT94G12H501O', 26, 850.00, 0),
+('Rizzo', 'Stefano', 'RZZSTF88H13H501N', 41, 1900.00, 1),
+('Lombardi', 'Giovanni', 'LMBGNN95I14H501M', 31, 1150.00, 0),
+('Barbieri', 'Chiara', 'BRBCHR90L15H501L', 35, 1250.00, 1),
+('Caruso', 'Andrea', 'CRSAND87M16H501K', 44, 2100.00, 1),
+('Gallo', 'Lucia', 'GLLLCU92N17H501J', 28, 970.00, 0),
+('Martini', 'Davide', 'MRTDVD85O18H501I', 39, 1750.00, 1),
+('Vitale', 'Simone', 'VTLSMN96P19H501H', 25, 780.00, 0),
+('Rizzo', 'Valentina', 'RZZVNT02R61F257J', 21, 25000.00, 0);
+
+INSERT INTO IMPIEGO (tipo_impiego, assunzione, id_impiegato) VALUES
+('Manager del circolino', '2005-06-15', 1),
+('Impiegato del circolino', '2010-09-01', 2),
+('Tecnico del circolino', '2012-03-20', 3),
+('Operaio del circolino', '2018-07-10', 4),
+('Dirigente del circolino', '2001-12-05', 5),
+('Responsabile del circolino', '2006-11-20', 6),
+('Contabile del circolino', '2013-02-15', 7),
+('Segretario del circolino', '2017-08-01', 8),
+('Analista del circolino', '2015-04-22', 9),
+('Project Manager del circolino', '2019-06-30', 10),
+('Sviluppatore del circolino', '2020-03-10', 11),
+('Designer del circolino', '2014-05-25', 12),
+('Magazziniere del circolino', '2016-09-14', 13),
+('HR Manager del circolino', '2011-10-05', 14),
+('Amministrativo del circolino', '2021-07-20', 15),
+('Venditore del circolino', '2009-12-03', 16),
+('Consulente del circolino', '2018-01-08', 17),
+('Assistente del circolino', '2022-05-11', 18),
+('Specialista del circolino', '2007-03-19', 19),
+('Supervisore del circolino', '2023-02-28', 20);
+
